@@ -1,0 +1,15 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /listings/{listingId} {
+      // Public read access for approved listings
+      allow read: if true;
+      
+      // Only authenticated users (Brokers) can create a listing
+      allow create: if request.auth != null;
+      
+      // Strictly restrict update and delete to the designated admin email
+      allow update, delete: if request.auth != null && request.auth.token.email == 'Victuk5@gmail.com';
+    }
+  }
+}

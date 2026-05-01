@@ -1,0 +1,36 @@
+
+{
+  "entities": {
+    "Listing": {
+      "title": "Listing",
+      "description": "A property listing in the marketplace.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "propertyType": { "type": "string", "enum": ["House", "Land", "Apartment", "Hostel"] },
+        "location": { "type": "string" },
+        "landTenure": { "type": "string", "enum": ["Mailo", "Freehold", "Leasehold", "Kibanja"] },
+        "price": { "type": "number" },
+        "isRental": { "type": "boolean" },
+        "furnishedStatus": { "type": "string", "enum": ["furnished", "unfurnished"] },
+        "imageUrls": { "type": "array", "items": { "type": "string" } },
+        "brokerId": { "type": "string" },
+        "brokerName": { "type": "string" },
+        "brokerPhone": { "type": "string" },
+        "status": { "type": "string", "enum": ["pending", "approved"] },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["title", "propertyType", "location", "landTenure", "price", "brokerId", "status"]
+    }
+  },
+  "auth": {
+    "providers": ["google.com", "password"]
+  },
+  "firestore": {
+    "/listings/{listingId}": {
+      "schema": "Listing",
+      "description": "Property listings submitted by brokers."
+    }
+  }
+}

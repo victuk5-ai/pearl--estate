@@ -1,0 +1,118 @@
+{
+  "placeholderImages": [
+    {
+      "id": "banner_ad_1",
+      "description": "Banner ad for premium listings",
+      "imageUrl": "https://picsum.photos/seed/101/1200/400",
+      "imageHint": "modern architecture"
+    },
+    {
+      "id": "banner_ad_2",
+      "description": "Banner ad for land for sale",
+      "imageUrl": "https://picsum.photos/seed/102/1200/400",
+      "imageHint": "green landscape"
+    },
+    {
+      "id": "property_1_1",
+      "description": "Executive Mansion in Naguru",
+      "imageUrl": "https://picsum.photos/seed/1/800/600",
+      "imageHint": "luxury mansion exterior"
+    },
+    {
+      "id": "property_1_2",
+      "description": "Poolside of Naguru Mansion",
+      "imageUrl": "https://picsum.photos/seed/2/800/600",
+      "imageHint": "mansion pool"
+    },
+    {
+      "id": "property_2_1",
+      "description": "Prime plot in Nakasero",
+      "imageUrl": "https://picsum.photos/seed/3/800/600",
+      "imageHint": "land plot city"
+    },
+    {
+      "id": "property_3_1",
+      "description": "Apartment in Najjera",
+      "imageUrl": "https://picsum.photos/seed/4/800/600",
+      "imageHint": "modern apartment"
+    },
+    {
+      "id": "property_4_1",
+      "description": "House in Namugongo",
+      "imageUrl": "https://picsum.photos/seed/5/800/600",
+      "imageHint": "family house suburban"
+    },
+    {
+      "id": "property_5_1",
+      "description": "Land in Kireka",
+      "imageUrl": "https://picsum.photos/seed/6/800/600",
+      "imageHint": "empty plot"
+    },
+    {
+      "id": "property_7_1",
+      "description": "Plot of land in Gayaza",
+      "imageUrl": "https://picsum.photos/seed/7/800/600",
+      "imageHint": "land plot"
+    },
+    {
+      "id": "property_8_1",
+      "description": "House for rent in Naalya",
+      "imageUrl": "https://picsum.photos/seed/8/800/600",
+      "imageHint": "suburban house rental"
+    },
+    {
+      "id": "property_9_1",
+      "description": "Land for sale in Mukono",
+      "imageUrl": "https://picsum.photos/seed/9/800/600",
+      "imageHint": "empty land"
+    },
+    {
+      "id": "property_10_1",
+      "description": "Apartment in Kiwatule",
+      "imageUrl": "https://picsum.photos/seed/10/800/600",
+      "imageHint": "apartment complex"
+    },
+    {
+      "id": "property_11_1",
+      "description": "Luxury penthouse exterior",
+      "imageUrl": "https://picsum.photos/seed/11/800/600",
+      "imageHint": "luxury penthouse"
+    },
+    {
+      "id": "property_11_2",
+      "description": "View from luxury penthouse",
+      "imageUrl": "https://picsum.photos/seed/12/800/600",
+      "imageHint": "penthouse view"
+    },
+    {
+      "id": "property_12_1",
+      "description": "Hostel room in Banda",
+      "imageUrl": "https://picsum.photos/seed/13/800/600",
+      "imageHint": "hostel room"
+    },
+    {
+      "id": "property_13_1",
+      "description": "Commercial space in Nakawa",
+      "imageUrl": "https://picsum.photos/seed/14/800/600",
+      "imageHint": "commercial space"
+    },
+    {
+      "id": "property_14_1",
+      "description": "Family Home in Ntinda",
+      "imageUrl": "https://picsum.photos/seed/15/800/600",
+      "imageHint": "family home"
+    },
+    {
+      "id": "property_15_1",
+      "description": "Land in Entebbe",
+      "imageUrl": "https://picsum.photos/seed/16/800/600",
+      "imageHint": "land lake view"
+    },
+    {
+      "id": "property_16_1",
+      "description": "Apartment in Kira",
+      "imageUrl": "https://picsum.photos/seed/17/800/600",
+      "imageHint": "apartment building"
+    }
+  ]
+}
